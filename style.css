@@ -6,7 +6,7 @@ body {
   background-color: #ffffff;
   color: black;
   overflow-x: hidden;
- /* min-width: 600px;*/
+  /* min-width: 600px; */
 }
 
 /* width */
@@ -124,5 +124,31 @@ form {
   form,
   .tasks {
     width: 85%;
+  }
+}
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 25px;
+  }
+  form,
+  .tasks {
+    width: 85%;
+  }
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+  }
+  .add {
+    justify-self: center;
+    width: 100px;
+  }
+  .task p {
+    font-size: 16px;
+  }
+  #clearALL {
+    width: 130px;
+    font-size: 18px;
   }
 }
