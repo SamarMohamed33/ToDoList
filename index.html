@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <i class="fa-light fa-notebook"></i>
+      <h1>To Do List</h1>
+    </header>
+    <form>
+      <input type="text" class="input" id="input" />
+      <input type="add" class="add" value="ADD TASK" id="ADD" readonly />
+    </form>
+    <div class="tasks" id="tasks"></div>
+    <button id="clearALL" onclick="clearALL()">Clear Tasks</button>
+    <script src="main.js"></script>
+  </body>
+</html>
