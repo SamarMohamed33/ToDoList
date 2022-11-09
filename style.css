@@ -47,6 +47,7 @@ h1 {
   text-align: center;
   margin: auto;
   font-size: 40px;
+  font-weight: 800;
 }
 /************************************************** Add new task ********************************************/
 form {
@@ -94,6 +95,13 @@ form {
 }
 .deleteBtn {
   transition: 1s;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #b75927;
+  color: white;
+  margin: 10px;
 }
 /************************** clear all tasks ************************************/
 #clearALL {
@@ -131,7 +139,7 @@ form {
     height: 10vh;
   }
   h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
   form,
   .tasks {
@@ -154,8 +162,10 @@ form {
     font-size: 16px;
   }
   .deleteBtn i {
-    font-size: 15px;
-    padding: 0;
+    font-size: 16px;
+  }
+  .deleteBtn {
+    padding: 7px 10px;
     border-radius: 5px;
   }
   #clearALL {

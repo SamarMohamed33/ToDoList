@@ -8,7 +8,7 @@ let addTask = function (item) {
   icon.setAttribute("class", "fa-solid fa-square-check");
 
   let txt = document.createTextNode(item);
-  deleteBtn.innerHTML = `<i class="fa-solid fa-trash-can fa-2x"></i>`;
+  deleteBtn.innerHTML = `<i class="fa-regular fa-trash-can fa-2x"></i>`;
 
   deleteBtn.setAttribute("class", "deleteBtn");
   deleteBtn.addEventListener("click", function () {
@@ -40,8 +40,8 @@ let addTask = function (item) {
 
   newTask.style =
     "background-color:white;border-radius:10px;display:flex; font-size:20px;justify-content:space-between;align-items:center;margin:7px 5px; cursor:pointer";
-  deleteBtn.style =
-    "border:none;border-radius:10px; padding:10px 15px;cursor:pointer;background-color:#b75927;color:white;margin:10px";
+  // deleteBtn.style =
+  //   "border:none;border-radius:10px; padding:10px 15px;cursor:pointer;background-color:#b75927;color:white;margin:10px";
   icon.style = "margin-right:10px ;color:#b75927";
   myP.style = "margin-left:20px";
 };
