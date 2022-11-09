@@ -128,7 +128,7 @@ form {
 }
 @media screen and (max-width: 800px) {
   header {
-  height: 10vh;
+    height: 10vh;
   }
   h1 {
     font-size: 25px;
@@ -147,8 +147,14 @@ form {
     justify-self: center;
     width: 100px;
   }
+  .task {
+    height: 40px;
+  }
   .task p {
     font-size: 16px;
+  }
+  .deleteBtn i {
+    font-size: 15px;
   }
   #clearALL {
     width: 130px;
